@@ -1,5 +1,5 @@
 import cross from "../images/icon-cross.svg";
-import React, { useState } from "react";
+
 
 function Todolist(props) {
 let {id} = props
