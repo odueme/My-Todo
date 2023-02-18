@@ -10,8 +10,9 @@ body{
   font-family: 'Josefin Sans', sans-serif;
 }
 
-html, body,.App{
-    height: 100vh
+.App{
+    height: 100vh;
+    background-size: cover;
   }
 
 
