@@ -125,7 +125,7 @@ setItems(updatedTasks)
         style={{backgroundColor: darkMode ? "white" : "hsl(235, 24%, 19%)",  
         display: todoItems.length === 0 ? "none" : "flex"}}>
    
-   <p>{count} Items left</p>
+   { count.length !== 1 ? <p>{count} Items left</p> : <p>{count} item left</p>}
    <p 
    onClick={clearComplete}
    style={{cursor: "pointer"}}
