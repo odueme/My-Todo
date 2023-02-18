@@ -92,13 +92,11 @@ setItems(updatedTasks)
 
 
   return (
-    
-    <div
-      className="App"
-      style={{
-        backgroundColor: darkMode ? "  hsl(0, 0%, 98%)" : "hsl(235, 21%, 11%)",
-      }}
-    >
+    <body 
+    style={{
+      backgroundColor: darkMode ? "  hsl(0, 0%, 98%)" : "hsl(235, 21%, 11%)",
+    }}>
+    <div className="App">
       <header className="App-header">
         <img
           src={darkMode ? moon : sun}
@@ -154,6 +152,7 @@ setItems(updatedTasks)
       </div>
       <Footer mode={darkMode} empty={todoItems.length === 0} />
     </div>
+    </body>
   );
 }
 

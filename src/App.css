@@ -1,15 +1,15 @@
-
-body{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+
+body{
+
   font-family: 'Josefin Sans', sans-serif;
 }
 
-.App{
-  height: 1000vh;
-  background-size: cover;
-}
 
 
 
